@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -38,7 +38,7 @@ a:link {
 /* login */
 
 .d-flex .login a {
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 .d-flex .login a:hover,
@@ -63,9 +63,8 @@ a:link {
 
 /* Shop section */
 
-.collect{
-    background-color: rgb(223, 233, 236);
-    
+.collect {
+  background-color: rgb(223, 233, 236);
 }
 .card {
   border: none;
@@ -75,7 +74,7 @@ a:link {
   padding: 10px;
   border-radius: 8px;
 }
-.card:hover{
+.card:hover {
   /* border: 0.5px solid #3b5998; */
   background-color: rgba(229, 242, 248, 0.765);
   display: inline-block;
@@ -84,59 +83,56 @@ a:link {
   border-radius: 8px;
   font-family: "Roboto Condensed", sans-serif;
 }
-.card-title{
+.card-title {
   font-size: 14px;
   /* border-bottom: 0.3px solid #3b5998; */
 }
-.line{
+.line {
   border-bottom: 0.3px solid #3b5998;
 }
-.deli-btn, .vou-btn{
-  width:10px;
-  height: 5px;  
+.deli-btn,
+.vou-btn {
+  width: 10px;
+  height: 5px;
   font-size: 10px;
   padding-left: 0;
 }
-.deli-btn{
+.deli-btn {
   color: #007787;
-  border:0.5px solid #007787;
+  border: 0.5px solid #007787;
 }
-.vou-btn{
+.vou-btn {
   color: #f85606;
-  border:0.5px solid #f85606;
-
+  border: 0.5px solid #f85606;
 }
 .price {
   font-weight: bold;
-  color:#f85606 ;
+  color: #f85606;
   font-size: 18px;
 }
-.ord-btn{
+.ord-btn {
   width: 90px;
-  height:30px;
+  height: 30px;
   font-size: 12px;
   color: #f85606;
-  border:0.5px solid #f85606;
+  border: 0.5px solid #f85606;
   margin-left: 70px;
   border-radius: 20px 30px;
 }
-.ord-btn:hover{
-  color:white;
+.ord-btn:hover {
+  color: white;
   background-color: #f85606;
 }
-span{
+span {
   display: inline-block;
 }
 
-.card-title,.deli-btn,.vou-btn,.ord-btn{
+.card-title,
+.deli-btn,
+.vou-btn,
+.ord-btn {
   font-family: "Roboto Condensed", sans-serif;
 }
-
-
-
-
-
-
 
 /* footer */
 
@@ -144,9 +140,13 @@ footer,
 .form {
   background-color: #f5f5f5;
 }
-footer ul {
+ul {
   list-style-type: none;
   padding-left: 0;
+}
+footer ul li,
+p {
+  line-height: 2em;
 }
 ul li a {
   color: #000;

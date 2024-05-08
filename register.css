@@ -39,7 +39,7 @@ a:link {
 /* login */
 
 .d-flex .login a {
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 .d-flex .login a:hover,
@@ -135,6 +135,10 @@ footer,
 footer ul {
   list-style-type: none;
   padding-left: 0;
+}
+footer ul li,
+p {
+  line-height: 2em;
 }
 ul li a {
   color: #000;

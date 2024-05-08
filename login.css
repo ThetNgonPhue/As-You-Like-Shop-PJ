@@ -39,7 +39,7 @@ a:link {
 /* login */
 
 .d-flex .login a {
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 .d-flex .login a:hover,
@@ -73,15 +73,17 @@ form {
 
 form img {
   float: left;
+  width: 300px;
 }
 form .pos-right {
-  width: 300px;
+  width: 380px;
   float: right;
 }
 label {
   font-size: 12px;
 }
-.p-text,.text {
+.p-text,
+.text {
   font-size: 14px;
   text-align: center;
 }
@@ -133,6 +135,10 @@ footer,
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+footer ul li,
+p {
+  line-height: 2em;
 }
 ul li a {
   color: #000;

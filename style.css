@@ -30,6 +30,17 @@ a:link {
   text-decoration: none;
 }
 
+/* slide */
+.slide-text {
+  font-weight: bolder;
+  color: #000;
+  background-color: #fed4de;
+  opacity: 0.6;
+  padding: 20px;
+  text-align: center;
+  margin-left: 150px;
+}
+
 /* categories */
 
 .categories .container-fluid {
@@ -130,7 +141,7 @@ a:link {
 /* login */
 
 .d-flex .login a {
-  font-size: 12px;
+  font-size: 15px;
   color: #000;
 }
 .d-flex .login a:hover,
@@ -153,33 +164,28 @@ a:link {
 }
 
 /* contact section */
-.contact-address{
-  font-size: 16px;
-  text-transform: uppercase;
-}
 
 .contact-form form input {
-	height: 50px;
-	width: 100%;
-	padding-left: 20px;
-	font-size: 14px;
-	color: #444444;
-	border: 1px solid #e1e1e1;
-	border-radius: 10px;
-	margin-bottom: 20px;
+  height: 45px;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444444;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 .contact-form form textarea {
-	height: 130px;
-	width: 100%;
-	padding-left: 20px;
-	padding-top: 12px;
-	font-size: 14px;
-	color: #444444;
-	border: 1px solid #e1e1e1;
-	border-radius: 10px;
-	margin-bottom: 14px;
+  height: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 12px;
+  color: #444444;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 14px;
 }
-.site-btn{
+.site-btn {
   background-color: #ca1515;
   width: 150px;
   height: 40px;
@@ -193,9 +199,13 @@ footer,
 .form {
   background-color: #f5f5f5;
 }
- ul {
+ul {
   list-style-type: none;
   padding-left: 0;
+}
+footer ul li,
+p {
+  line-height: 2em;
 }
 ul li a {
   color: #000;

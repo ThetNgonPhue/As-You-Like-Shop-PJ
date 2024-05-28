@@ -1,0 +1,186 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: white;
+      }
+
+      .sidebar {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        line-height: 3em;
+        background-color: white;
+        color: black;
+        padding-right: 0;
+      }
+
+      .main {
+        background-color: #eff4f8;
+      }
+
+      /* LOGO */
+      .h3 {
+        padding-left: 0;
+        margin-top: 6px;
+        font-family: "Cookie", cursive;
+        font-weight: 800;
+        color: #fccd36;
+        border-bottom: 2px solid #eff4f8;
+        margin-bottom: 8px;
+      }
+      img {
+        margin-bottom: 7px;
+        
+      }
+      /*  */
+
+      
+      .list-group-item:hover {
+        padding-left: 0;
+        background-color: black;
+        color: white;
+        transition: 1s ease;
+        border-radius: 12px;
+
+      }
+
+      /* Search Bar */
+
+      /* Style the search field */
+      form {
+        width: 700px;
+        border: 1px solid black;
+      }
+      form.search input[type="text"] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid white;
+        float: left;
+        width: 80%;
+        background: white;
+        height: 45px;
+      }
+
+      /* Style the submit button */
+      form.search button {
+        float: left;
+        width: 20%;
+        height: 45px;
+        padding: 10px;
+        background: #0b7dda;
+        color: white;
+        font-size: 17px;
+        border: none;
+        /* border: 1px solid white; */
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+      }
+
+      form.search button:hover {
+        background: darkblue;
+      }
+
+      /* Clear floats */
+      form.search::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      /*  */
+
+      /*Total Status Card */
+      .card {
+        border-radius: 15px;
+        height: 150px;
+      }
+      .icon {
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 25px;
+        color: white;
+      }
+
+      /*Product  */
+      .out-of-stock , .instock{
+        font-size: 13px;
+        padding: 5px;
+        width: 10px;
+        height: 3px;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+     .out-of-stock {
+        background-color: #fff2ed;
+        color: #ff605f;        
+      }
+    .instock{
+      background-color: #f0fdf4;
+      color: green;
+    }
+    .quick-link a{
+      text-decoration: none;
+      color: grey;
+    }
+
+    /* barchart */
+    .barchart{
+      border-bottom: 2px solid #eff4f2;
+    }
+
+    /* Add Product Form */
+    .form-control{
+      height: 50px;
+      border-radius: 10px;
+    }
+    .up-image img{
+      width: 165px;
+      height: 230px;
+      border: 2px solid #eff4f2;
+      border-radius: 8px;
+    }
+    .upload-image{
+      width: 165px;
+      height: 230px;
+      border: 1px dotted blue;
+      border-radius: 8px;
+      color: grey;
+    }
+
+    .add-product,.save-product{
+      width: 180px;
+      height: 50px;
+      border-radius: 15px;
+      outline: none;
+      border: none;
+    }
+    .add-product{
+      background-color: #0b7dda;
+      color: white;
+    }
+    .add-product:hover , .save-product:hover{
+      
+      color: black;
+    }
+    .save-product{
+      background-color: #ff605f;
+      color: white;
+    }
+    
+    /* prouct list */
+    .add-new{
+      width: 180px;
+      height: 50px;
+      border-radius: 15px;
+      outline: none;
+      border: 1px solid blue;
+      float: right;
+      color: blue;
+      
+    }
